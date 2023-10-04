@@ -1,0 +1,51 @@
+     a{
+        color:black;
+        text-decoration:none;
+    }
+    .saw{
+        color:gray;
+    }
+
+    h1{
+        font-size: 45px;
+        text-align:center;
+        border-bottom: 1px solid gray;
+        margin: 0;
+        padding: 20px;
+    }
+    #active{
+        text-decoration: underline;
+        color:red;
+    }
+    ol{
+        border-right: 1px solid gray;
+        width: 70px;
+        padding:20px;
+        margin:0; 
+    }
+    .grid{
+        display:grid;
+        grid-template-columns: 150px 1fr;
+    }
+    h2{
+        padding: 20px 0px 20px;
+    }
+    @media(max-width:400px){
+        .grid{
+        display:block;
+        grid-template-columns: 150px 1fr;
+    }
+    ol{
+        border-right: 1px solid gray;
+        width: 70px;
+        padding:20px;
+        margin:0; 
+        display:none;
+    }
+    div{
+        padding: 0 10px 0;
+    }
+    ifram{
+        padding: 0 10px 0 10px;
+    }
+    }
